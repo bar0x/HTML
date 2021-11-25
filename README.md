@@ -1,4 +1,4 @@
-# HTML (Tecniche di Progettazione di Sistemi Informatici)
+# HTML (Tecniche Progettazione Sistemi Informatici)
 
 ![](g1.gif)
 
