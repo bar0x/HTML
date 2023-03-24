@@ -1,0 +1,184 @@
+
+body {background-image: url("map.jpg");}
+
+
+.main {
+  background-color: rgba(44, 131, 88, 0.983);
+  border: solid 0px rgb(255, 255, 255);
+  margin: 0px 320px 0px 320px;
+  padding: 0px 0px 20px 0px;
+}
+
+
+/* conglomerato barre di navigazione*/ 
+.topnav {
+  background-color: rgb(51, 51, 51);
+  overflow: hidden;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+}
+  
+  
+.topnav a {
+  float: left;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+    
+    
+  /* allineamento righe */
+  padding-left: 57px;
+  padding-right: 58px;
+}
+  
+  
+.topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+  
+
+.topnav a.active {
+  background-color: rgb(4, 170, 109);
+  color: white;
+}
+
+
+/* blocco  1 */
+
+.titolo1 {
+  border: solid 0px rgb(0,0,0);
+  margin-top: 20px;
+  border-bottom: solid 2px rgb(0,0,0);
+  text-align: center;
+}
+
+.sussy {
+  border: solid 0px rgb(255, 255, 255);
+  margin-top: 460px;
+}
+
+/* sitili carattere*/
+
+h1 {
+  font-family: 'Permanent Marker';
+  font-size: 55px;
+  font-weight: bolder;
+  line-height: 1px;
+}
+
+h2 {
+  font-family: 'Texturina';
+  font-size: 22px;
+  font-size:large;
+  font-weight: normal;
+}
+
+.titoletto {
+  font-family: 'Permanent Marker';
+  font-size: 35px;
+  font-weight: lighter;
+  color:rgb(158, 206, 106);
+  line-height: 50px;
+  text-align: center;
+}
+
+.titoletto2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(0,0,0);
+  line-height: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(0,0,0);
+  line-height: 1px;
+}
+
+a {
+  text-decoration:none;
+  color: rgb(158, 206, 106);
+}
+
+
+
+
+/* slider */
+
+.slidershow {
+  width: 700px;
+  height: 400px;
+  overflow: hidden;
+  margin-top: 0px;
+  margin-left: 260px;
+}
+
+.middle {
+  position: absolute;
+}
+
+.navigation {
+   position: absolute;
+   bottom: 20px;
+   left: 50%;
+   transform: translatex(-50%);
+   display: flex;
+}
+
+.bar {
+  width: 50px;
+  height: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  margin: 6px; 
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.bar:hover{
+  background: rgb(255, 255, 255);
+
+}
+
+input[name="r"]{
+  position: absolute;
+  visibility: hidden;
+}
+
+.slides {
+  width: 500%;
+  height: 100%;
+  display: flex;
+} 
+
+.slide {
+  width: 20%;
+  transition: 0.6s;  
+}
+
+.slide img{
+  width: 100%;
+  height: 100%;
+}
+
+#r1:checked ~ .s1{
+  margin-left: 0;
+}
+#r2:checked ~ .s1{
+  margin-left: -20%;
+} 
+#r3:checked ~ .s1{
+  margin-left: -40%;
+}  
+#r4:checked ~ .s1{
+  margin-left: -60%;
+}  
+#r5:checked ~ .s1{
+  margin-left: -80%;
+} 
+

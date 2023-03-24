@@ -1,0 +1,31 @@
+table, th, td, tr{
+    border: 1px solid;
+}
+
+th {
+    height: 10px;
+}
+
+#OutData{
+    text-align: center;
+}
+
+
+#KillRed{
+    height: 10px;
+    width: 65px;
+    background-color: red;
+}
+
+#KillGreen{
+    height: 10px;
+    width: 70px;
+    background-color: green;
+}
+
+#KillBlue{
+    height: 10px;
+    width: 72px;
+    background-color: blue;
+
+}

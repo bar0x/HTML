@@ -1,0 +1,52 @@
+<HTML>
+   <HEAD>
+      <TITLE>Flow Charts</TITLE>
+   </HEAD>
+   
+   
+   <BODY>
+      <!-- introduzione -->
+      <b> <font size="+7"> Cos'è Un Flow Chart? </font> </b><br />
+      <br />
+	  un flow chart o <i> diagramma di flusso </i> è una tecnica usata dai programmatori per sviluppare un programma.           <br />
+	  infatti coi diagrammi di flusso si rappresentano i "percorsi logici" che un programma ha il compito di svolgere, in modo  <br />
+	  un flow chart è principalmente composto da una serie di blocchi e frecce che collegano gli stessi.                        <br />
+	  qui allegata vi è una foto del menu blocchi di https://app.diagrams.net/: un sito per creare i flow charts gratuitamente. <br />
+	  <br />
+	  <img src="forme.png" width="12%" alt="Screen dei blocchi " />
+	  <br />
+	  <br />
+	  <!-- spiegazione principale  -->
+	  
+	  <b> <font size="+3"> Vari tipi di Blocchi </font> </b><br />
+	  <br />
+	  Come dicevamo prima ogni blocco del flow chart ha una funzione specifica. <br />
+	  In breve: <br />
+	  <br />
+	  
+	  <!-- blocco inizio fine spiegazione  -->
+	  
+	  <b> <font size="+2"> - Blocco inizio/fine: </font> </b><br />
+	  <br />
+	  <img src="inizio.png" width="8%" alt="Screen del blocco inizio/fine" />
+	  <br />
+	  lo scopo del blocco <i> inizio/fine </i> è quello di dichiarare lo stato di avvio/fine del
+	  nostro algoritmo. quetso blocco di solito è uno dei primi se non il primo da mettere nel nostro
+	  diagramma di flusso. 
+	  <br />
+	  <br />
+	  <br />
+	  <br />
+	  
+	  <!-- I/O  -->
+	  
+	  <b> <font size="+2">  -I/O: input o output:  </font></b> <br />
+	  <img src="io.png" width="8%" alt="Screen del blocco input/output" />
+	  <br />
+	  il blocco input output serve a scrivere/visualizzare/modificare una variabile.
+	  le variabili sarano poi molto importanti per il nostro diagramma. <br />
+	  
+	  
+      
+   </BODY>
+</HTML>

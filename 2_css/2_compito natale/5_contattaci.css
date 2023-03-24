@@ -1,0 +1,91 @@
+
+body {
+  background-image: url("map.jpg");
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+
+.main {
+  background-color: rgba(44, 131, 88, 0.983);
+  border: solid 0px rgb(255, 255, 255);
+  margin: 0px 320px 0px 320px;
+  padding: 0px 0px 100px 0px;
+}
+
+
+/* conglomerato barre di navigazione*/ 
+.topnav {
+  background-color: rgb(51, 51, 51);
+  overflow: hidden;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+}
+  
+  
+.topnav a {
+  float: left;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+    
+    
+  /* allineamento righe */
+  padding-left: 57px;
+  padding-right: 58px;
+}
+  
+  
+.topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+  
+
+.topnav a.active {
+  background-color: rgb(4, 170, 109);
+  color: white;
+}
+
+
+
+
+/* blocco  1 */
+
+.titolo1 {
+  border: solid 0px rgb(0,0,0);
+  margin-top: 20px;
+  border-bottom: solid 2px rgb(0,0,0);
+  text-align: center;
+}
+
+
+/* sitili carattere*/
+
+h1 {
+  font-family: 'Permanent Marker';
+  font-size: 55px;
+  font-weight: bolder;
+  line-height: 20px;
+}
+
+
+
+.titoletto {
+  font-family: 'Permanent Marker';
+  font-size: 35px;
+  font-weight: lighter;
+  color:rgb(158, 206, 106);
+  line-height: 50px;
+}
+
+.titoletto2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(0,0,0);
+  line-height: 1px;
+}
+

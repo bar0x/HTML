@@ -1,0 +1,50 @@
+<HTML>
+    <HEAD>
+        <link rel="stylesheet" href="ColorPicker.css">
+
+    </HEAD>
+
+
+
+    <BODY>
+        <script src="ColorPicker.js"></script>
+
+
+
+        <table>
+            <tr>     <!-- AreaColore -->
+              <th>
+                  <div class="ColoreRosso" id="KillRed"></div>
+              </th>
+              <th>
+                  <div class="ColoreVerde" id="KillGreen"></div>
+              </th>
+              <th>
+                  <div class="ColoreBlu" id="KillBlue"></div>
+              </th>
+            </tr>
+            <tr>  <!-- AreaPulsanti -->
+              <td>
+                <button onclick="RossoSu()" id="IncRed">+ r</button>
+                <button onclick="RossoGiu()" id="DecRed">- r</button>
+              </td>
+              <td>
+                <button onclick="VerdeSu()" id="IncGreen">+ g</button>
+                <button onclick="VerdeGiu()" id="DecGreen">- g</button>
+              </td>
+              <td>
+                <button onclick="BluSu()" id="IncBlue">+ b</button>
+                <button onclick="BluGiu()" id="DecBlue">- b</button>
+              </td>
+            </tr>    <!-- AreaColore + parametri -->
+                <td colspan="3"> 
+                    <div class="OutDatas" id="OutData">
+                      rgb(255,255,255)
+                    </div>
+                </td>
+            </tr>
+          </table>
+
+    
+    </BODY>
+</HTML>
